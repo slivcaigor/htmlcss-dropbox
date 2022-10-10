@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 body {
@@ -33,10 +35,63 @@ body {
   font-weight: 300;
 }
 
+/* Nav Styling */
 
+.main-menu {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
 
+.logo {
+  display: flex;
+  width: 12%;
+  padding-left: 30px;
+  align-items: center;
+}
 
+.menu-left {
+  display: flex;
+  width: 38%;
+  justify-content: flex-start;
+}
 
+.menu-left ul {
+  display: flex;
+  gap: 25px;
+}
+
+.menu-left ul a {
+  color: black;
+}
+
+.menu-right {
+  display: flex;
+  width: 38%;
+  justify-content: flex-end;
+}
+
+.menu-right ul {
+  display: flex;
+  gap: 25px;
+}
+
+.menu-right ul a {
+  color: black;
+}
+
+.login {
+  display: flex;
+  gap: 20px;
+  width: 12%;
+  justify-content: flex-end;
+  padding-right: 30px;
+  align-items: center;
+}
+
+.login li a {
+  color: black;
+}
 
 
 
