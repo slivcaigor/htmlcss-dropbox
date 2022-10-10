@@ -41,8 +41,90 @@ body {
   display: flex;
   align-items: center;
   padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  background-color: white;
 }
 
+/* Jumbo Section Styling */
+.jumbo {
+  padding-top: 90px;
+}
+
+/* DEBUG */
+.jumbo img {
+  width: 50%;
+}
+
+
+
+/* Styling Menu Hover */
+.navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 77;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content span {
+  float: none;
+  color: black;
+  font-weight: 700;
+  padding: 16px 16px 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Logo Styling */
 .logo {
   display: flex;
   width: 12%;
@@ -50,6 +132,7 @@ body {
   align-items: center;
 }
 
+/* Menu left */
 .menu-left {
   display: flex;
   width: 38%;
@@ -65,6 +148,7 @@ body {
   color: black;
 }
 
+/* Menu right */
 .menu-right {
   display: flex;
   width: 38%;
@@ -96,7 +180,11 @@ body {
 
 
 
-
+/* DEBUG Main */
+main {
+  height: 1200px;
+  background-color: beige;
+}
 
 
 
