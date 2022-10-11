@@ -37,6 +37,16 @@ body {
   font-weight: 300;
 }
 
+.btn3 {
+  background-color: white;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  display: inline-block;
+  padding: 9px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 /* Nav Styling */
 .main-menu {
   display: flex;
@@ -497,7 +507,6 @@ body {
   padding-bottom: 40px;
 }
 
-
 .middle-square hr {
   width: 20%;
 }
@@ -508,10 +517,8 @@ body {
   font-weight: 300;
 }
 
-
 .flexbox {
   display: flex;
-  padding-bottom: 50px;
 }
 
 .flex-col {
@@ -566,6 +573,31 @@ body {
 .cc {
   background-color: rgb(255, 216, 48);
 }
+
+/* Trial Section */
+.trial {
+  background-color: rgb(180, 208, 231);
+}
+
+.trial-text {
+  color: #fff;
+  color: rgb(97, 8, 43);
+  font-size: 50px;
+  font-weight: 700;
+  width: 60%;
+  display: block;
+}
+
+.trial-content {
+  padding: 120px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
 
 
 
