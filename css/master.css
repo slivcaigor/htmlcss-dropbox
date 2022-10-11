@@ -486,6 +486,88 @@ body {
 }
 
 /* Clients Section */
+.middle-square {
+  background-color: rgb(245, 245, 245);
+  padding: 50px 0 150px 50px;
+  width: 50%;
+}
+
+.middle-square img {
+  width: 50%;
+  padding-bottom: 40px;
+}
+
+
+.middle-square hr {
+  width: 20%;
+}
+
+.middle-square p {
+  padding: 40px 30px 40px 0;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+
+.flexbox {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.flex-col {
+  display: flex;
+}
+
+.flex-col img {
+  width: 100%;
+}
+
+.square {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.arizona {
+  background-color: rgb(97, 8, 43);
+}
+
+.row>.square img {
+  filter: invert(1);
+}
+
+.designit {
+  background-color: #A2D39B;
+  border: 15px solid rgb(209, 233, 205);
+}
+
+.florida {
+  background-color: rgb(0, 147, 206);
+}
+
+.topps {
+  background-color: #FF1C1C;
+}
+
+.wbr {
+  background-color: rgb(213, 0, 31);
+}
+
+.lp {
+  background-color: rgb(13, 36, 129);
+}
+
+.hc {
+  background-color: #B4D0E7;
+}
+
+.cc {
+  background-color: rgb(255, 216, 48);
+}
+
+
 
 
 
