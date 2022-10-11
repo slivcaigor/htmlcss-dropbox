@@ -315,6 +315,10 @@ body {
   font-size: 14px;
 }
 
+.buy-now a {
+  text-decoration: underline;
+}
+
 .box hr {
   width: 20%;
   color: rgba(0, 0, 0, 0.6);
@@ -464,11 +468,24 @@ body {
   font-size: 40px;
 }
 
+/* Teams Section */
 
+.teams h2 {
+  font-size: 40px;
+  width: 60%;
+  padding-top: 80px;
+}
 
+.teams a {
+  padding: 50px 0;
+  text-decoration: underline;
+}
 
+.teams {
+  padding-bottom: 120px;
+}
 
-
+/* Clients Section */
 
 
 
