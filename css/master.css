@@ -596,22 +596,45 @@ body {
   justify-content: space-between;
 }
 
+/* FAQ Section */
+.align-mid .heading {
+  font-size: 40px;
+  padding: 80px 0 30px 40px;
+  color: black;
+  text-align: left;
+}
 
+.faqs {
+  padding: 0px 20px 20px;
+}
 
+details {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
 
+details summary {
+  outline: none;
+  padding: 25px 0px;
+  font-weight: 700;
+  font-size: 16px;
+  border-top: 1px solid black;
+}
 
-
-
-
-
-
-
+.answer {
+  padding: 20px 0px 0px 25px;
+  font-weight: 700;
+}
 
 /* Footer styling */
 
 footer {
   background-color: black;
   padding: 70px 0;
+  margin-top: 80px;
 }
 
 .footer-col ul {
