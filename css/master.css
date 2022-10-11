@@ -429,6 +429,52 @@ body {
   padding-top: 30px;
 }
 
+/* Feature Section */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 50px;
+}
+
+.feature-img {
+  width: 100%;
+}
+
+.container img {
+  width: 100%;
+}
+
+
+.text {
+  text-align: center;
+}
+
+.feature {
+  padding-bottom: 100px;
+}
+
+.text-heading {
+  font-weight: 600;
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+
+.feature h2 {
+  font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer styling */
 
