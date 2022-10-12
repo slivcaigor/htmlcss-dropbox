@@ -11,6 +11,9 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 /* Buttons Styling */
 .btn1 {
@@ -252,7 +255,6 @@ body {
 .fa-circle-dot {
   color: rgb(0, 97, 255);
 }
-
 
 .features {
   font-size: 1em;
