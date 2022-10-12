@@ -249,6 +249,11 @@ body {
 }
 
 /* Main Styling*/
+.fa-circle-dot {
+  color: rgb(0, 97, 255);
+}
+
+
 .features {
   font-size: 1em;
   padding-top: 20px;
